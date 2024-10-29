@@ -1,0 +1,63 @@
+[
+  {
+    "cookies": [
+      {
+        "name": "SID",
+        "value": "g.a000owgcOgw3vAI2DefsRaH0Wf1Ef55djFR2MrpYTwpk_p2iKSH2ENTTcda-0tAUBAaU0QktAwACgYKARMSARESFQHGX2MiZlKtR0BneoSmqeRzD7WS6RoVAUF8yKrD7wV5DtAOSe4UUx9P9gbz0076",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.496Z"
+      },
+      {
+        "name": "APISID",
+        "value": "_fY3thN_0GvSU4O9/AbC9rppFx1j3aRzhM",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.496Z"
+      },
+      {
+        "name": "SAPISID",
+        "value": "68qHhteRU4YoUY4u/AsibXvNvs82ubZpgh",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.496Z"
+      },
+      {
+        "name": "__Secure-1PAPISID",
+        "value": "68qHhteRU4YoUY4u/AsibXvNvs82ubZpgh",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.496Z"
+      },
+      {
+        "name": "__Secure-3PAPISID",
+        "value": "68qHhteRU4YoUY4u/AsibXvNvs82ubZpgh",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.496Z"
+      },
+      {
+        "name": "PREF",
+        "value": "f4",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.497Z"
+      },
+      {
+        "name": "SIDCC",
+        "value": "AKEyXzWiPsT2qqLbw9BTlZhAqdvEzkmKnGzONVcM-fA3nb_OJKZfLHlg23WmcTnEywV1lJxRBw",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T09:14:38.497Z"
+      }
+    ],
+    "timestamp": "2024-10-29T09:14:39.715Z"
+  }
+]
