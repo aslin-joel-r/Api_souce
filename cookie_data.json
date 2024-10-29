@@ -7,7 +7,7 @@
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
       },
       {
         "name": "APISID",
@@ -15,7 +15,7 @@
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
       },
       {
         "name": "SAPISID",
@@ -23,7 +23,7 @@
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
       },
       {
         "name": "__Secure-1PAPISID",
@@ -31,7 +31,7 @@
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
       },
       {
         "name": "__Secure-3PAPISID",
@@ -39,7 +39,7 @@
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
       },
       {
         "name": "PREF",
@@ -47,17 +47,33 @@
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
       },
       {
-        "name": "SIDCC",
-        "value": "AKEyXzU8FXubwNLPoJj22-AKGGrHC5HpHyRBPbDtVOhAniXHJZamOkQsHeUrJ30cfLfqrnD6Dg",
+        "name": "ST-hcbf8d",
+        "value": "session_logininfo",
         "domain": "www.youtube.com",
         "path": "/",
         "secure": true,
-        "timestamp": "2024-10-29T06:09:49.611Z"
+        "timestamp": "2024-10-29T06:40:09.601Z"
+      },
+      {
+        "name": "ST-xuwub9",
+        "value": "session_logininfo",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T06:40:09.601Z"
+      },
+      {
+        "name": "SIDCC",
+        "value": "AKEyXzXbeAbyo9yFCJIsWicI4ExGBLL3UbucH5qH8kR_OIIXa0YYPojukY3OIFDF6V2ZfZo3sg",
+        "domain": "www.youtube.com",
+        "path": "/",
+        "secure": true,
+        "timestamp": "2024-10-29T06:40:09.601Z"
       }
     ],
-    "timestamp": "2024-10-29T06:09:49.412Z"
+    "timestamp": "2024-10-29T06:40:09.387Z"
   }
 ]

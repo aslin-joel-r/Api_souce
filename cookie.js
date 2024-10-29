@@ -1,15 +1,15 @@
 const express = require("express");
-const cors = require("cors");  // Import the CORS middleware
+const cors = require("cors");  
 const fs = require("fs");
 const app = express();
 const PORT = 3000;
 
 // Configure CORS to allow requests from specific origins
 app.use(cors({
-    origin: "*"  // Allow all origins; adjust to specific origins for more security
+    origin: "*"  
 }));
 
-// Middleware to parse JSON request bodies
+
 app.use(express.json());
 
 // POST endpoint to receive and store cookie data
