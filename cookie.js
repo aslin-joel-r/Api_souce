@@ -71,14 +71,14 @@ app.get("/get-cookies", (req, res) => {
         if (fs.existsSync("cookie_data.json")) {
             const fileContent = fs.readFileSync("cookie_data.json", 'utf8');
             const data = JSON.parse(fileContent);
-            
-            if (!Array.isArray(data)) {
-                return res.json([]);
+        
+            if (!Array.isArray(data) || data.length === 0) {
+                return res.json({});
             }
-            
-            res.json(data);
+        
+            res.json(data[0]);
         } else {
-            res.json([]);
+            res.json({});
         }
     } catch (error) {
         console.error('Error in /get-cookies:', error);
